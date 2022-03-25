@@ -1,0 +1,21 @@
+.nav-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    padding:0 140px;
+    background: gray;
+    color: #ffff;
+}
+.nav-container>ul{
+    display: flex;
+}
+.nav-container>ul>li{
+    
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+.nav-container>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
